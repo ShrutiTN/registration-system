@@ -22,14 +22,17 @@ echo "Invalid user";
 }
 }
 ?>
-
-
-<form method="post" action="login.php">
-<table>
-<tr><td>Username</td><td><input type="text" name="user" id="user"></td></tr>
-<tr><td>Password</td><td><input type="text" name="pass" id="pass"></td></tr>
+<form>
+<div class="block">
+<div class="centered">
+<table class="logintable">
+<tr><td><h1>Login Form</h1></td></tr>	
+<tr><td><input type="text" name="user" id="user" class="txt" placeholder=" Username"></td></tr>
+<tr><td><input type="Password" name="pass" id="pass" class="txt" placeholder=" Password"></td></tr>
 <tr><td><input type="submit" name="sub" id="sub" value="Sign In" class="btn">  <input type="reset" name="reset" class="btn" value="Reset"></td></tr>
 </table>
+</div>
+</div>
 </form>
 <?php
 include("includes/footer.php");

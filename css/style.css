@@ -1,9 +1,44 @@
-.btn {
 
-	background: #5659d6;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 5px 5px 5px 5px;
-    color: white;
-    font-weight: bold;
+.block  {
+  text-align: center;
+  white-space: nowrap;
+  height: 100vh;
+  background-color: gray;
+}
+ 
+.block:before , .logintable:before{
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; 
+}
+
+.centered {
+	background-color: black;
+  display: inline-block;
+  vertical-align: middle;
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.logintable{
+  color: white;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.txt{
+  width: 250px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.btn{
+  border-radius: 5px;
+  height: 30px;
+  width: 70px;
+  background-color: lightgreen;
 }
