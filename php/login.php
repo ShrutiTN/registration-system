@@ -28,7 +28,7 @@ echo "Invalid user";
 <table>
 <tr><td>Username</td><td><input type="text" name="user" id="user"></td></tr>
 <tr><td>Password</td><td><input type="text" name="pass" id="pass"></td></tr>
-<tr><td><input type="submit" name="sub" id="sub" value="Sign In" class="btn"></td></tr>
+<tr><td><input type="submit" name="sub" id="sub" value="Sign In" class="btn">  <input type="reset" name="reset" class="btn" value="Reset"></td></tr>
 </table>
 </form>
 <?php
